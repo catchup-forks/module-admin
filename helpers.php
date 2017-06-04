@@ -4,7 +4,7 @@
 if (!function_exists('save_config_var')) {
     function save_config_var($setting, $value, $env = null)
     {
-        $configModel = new \Cms\Modules\Core\Models\DBConfig();
+        $configModel = new \App\Modules\Core\Models\DBConfig();
 
         $settingInfo = $configModel->explodeSetting($setting);
 

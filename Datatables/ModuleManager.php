@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Datatables;
+namespace App\Modules\Admin\Datatables;
 
 use Illuminate\Support\Collection;
 use Lock;
@@ -40,7 +40,7 @@ class ModuleManager
                 'sort_order' => 'desc',
                 'source' => null,
                 'collection' => function () {
-                    $model = 'Cms\Modules\Core\Models\Module';
+                    $model = 'App\Modules\Core\Models\Module';
 
                     return $model::all();
                 },

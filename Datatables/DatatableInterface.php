@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Datatables;
+namespace App\Modules\Admin\Datatables;
 
 interface DatatableInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Cms\Modules\Admin\Http\Controllers\Backend;
+namespace App\Modules\Admin\Http\Controllers\Backend;
 
-use Cms\Modules\Core\Http\Controllers\BaseBackendController;
+use App\Modules\Core\Http\Controllers\BaseBackendController;
 
 class BaseAdminController extends BaseBackendController
 {

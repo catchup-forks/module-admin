@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Models;
+namespace App\Modules\Admin\Models;
 
 class WidgetOptions extends BaseModel
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Cms\Modules\Admin\Providers;
+namespace App\Modules\Admin\Providers;
 
-use Cms\Modules\Admin\Models\Widget;
-use Cms\Modules\Core\Models\Module;
-use Cms\Modules\Core\Models\Navigation;
-use Cms\Modules\Core\Models\NavigationLink;
-use Cms\Modules\Core\Providers\CmsRoutingProvider;
+use App\Modules\Admin\Models\Widget;
+use App\Modules\Core\Models\Module;
+use App\Modules\Core\Models\Navigation;
+use App\Modules\Core\Models\NavigationLink;
+use App\Modules\Core\Providers\CmsRoutingProvider;
 use Illuminate\Support\Facades\Route;
 
 class AdminRoutingProvider extends CmsRoutingProvider
 {
-    protected $namespace = 'Cms\Modules\Admin\Http\Controllers';
+    protected $namespace = 'App\Modules\Admin\Http\Controllers';
 
     /**
      * @return string

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Services;
+namespace App\Modules\Admin\Services;
 
 use Illuminate\Contracts\Config\Repository as Config;
 use Nwidart\Modules\Repository as Module;

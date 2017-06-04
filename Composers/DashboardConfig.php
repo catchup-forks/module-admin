@@ -1,8 +1,8 @@
 <?php
 
-namespace Cms\Modules\Admin\Composers;
+namespace App\Modules\Admin\Composers;
 
-use Cms\Modules\Admin\Services\ConfigService;
+use App\Modules\Admin\Services\ConfigService;
 
 class DashboardConfig
 {

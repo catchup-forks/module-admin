@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Events;
+namespace App\Modules\Admin\Events;
 
 use Illuminate\Queue\SerializesModels;
 

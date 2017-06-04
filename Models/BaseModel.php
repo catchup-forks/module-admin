@@ -1,8 +1,8 @@
 <?php
 
-namespace Cms\Modules\Admin\Models;
+namespace App\Modules\Admin\Models;
 
-use Cms\Modules\Core\Models\BaseModel as CoreBaseModel;
+use App\Modules\Core\Models\BaseModel as CoreBaseModel;
 
 class BaseModel extends CoreBaseModel
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Cms\Modules\Admin\Events\Handlers;
+namespace App\Modules\Admin\Events\Handlers;
 
-use Cms\Modules\Admin\Events\ConfigWasSaved;
+use App\Modules\Admin\Events\ConfigWasSaved;
 use File;
 
 class SetDebug

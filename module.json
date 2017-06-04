@@ -12,10 +12,10 @@
     "active": 1,
     "order": 2,
     "providers": [
-        "Cms\\Modules\\Admin\\Providers\\AdminModuleServiceProvider",
-        "Cms\\Modules\\Admin\\Providers\\AdminRoutingProvider",
-        "Cms\\Modules\\Admin\\Providers\\AdminEventsProvider",
-        "Cms\\Modules\\Admin\\Providers\\AdminServicesProvider"
+        "App\\Modules\\Admin\\Providers\\AdminModuleServiceProvider",
+        "App\\Modules\\Admin\\Providers\\AdminRoutingProvider",
+        "App\\Modules\\Admin\\Providers\\AdminEventsProvider",
+        "App\\Modules\\Admin\\Providers\\AdminServicesProvider"
     ],
     "aliases":{
     },

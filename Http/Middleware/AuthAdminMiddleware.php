@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Http\Middleware;
+namespace App\Modules\Admin\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Factory as AuthFactory;

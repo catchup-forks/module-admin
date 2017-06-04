@@ -1,9 +1,9 @@
 <?php
 
-namespace Cms\Modules\Admin\Providers;
+namespace App\Modules\Admin\Providers;
 
-use Cms\Modules\Core\Providers\BaseModuleProvider;
-use Cms\Modules\Admin\Composers\DashboardConfig;
+use App\Modules\Core\Providers\BaseModuleProvider;
+use App\Modules\Admin\Composers\DashboardConfig;
 
 class AdminModuleServiceProvider extends BaseModuleProvider
 {

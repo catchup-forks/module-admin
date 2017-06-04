@@ -1,11 +1,11 @@
 <?php
 
-namespace Cms\Modules\Admin\Http\Controllers\Backend\Dashboard;
+namespace App\Modules\Admin\Http\Controllers\Backend\Dashboard;
 
-use Cms\Modules\Admin\Http\Controllers\Backend\BaseAdminController;
-use Cms\Modules\Admin\Models\Widget;
-use Cms\Modules\Admin\Models\WidgetOptions;
-use Cms\Modules\Admin\Services\DashboardService;
+use App\Modules\Admin\Http\Controllers\Backend\BaseAdminController;
+use App\Modules\Admin\Models\Widget;
+use App\Modules\Admin\Models\WidgetOptions;
+use App\Modules\Admin\Services\DashboardService;
 use Former\Facades\Former;
 use Illuminate\Http\Request;
 

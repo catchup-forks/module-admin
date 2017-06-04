@@ -1,8 +1,8 @@
 <?php
 
-namespace Cms\Modules\Admin\Services;
+namespace App\Modules\Admin\Services;
 
-use Cms\Modules\Admin\Models\Widget;
+use App\Modules\Admin\Models\Widget;
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Support\Facades\File;
 use Nwidart\Modules\Repository as Module;

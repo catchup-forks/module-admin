@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Console;
+namespace App\Modules\Admin\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

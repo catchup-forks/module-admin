@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Admin\Http\Controllers\Backend\Config;
+namespace App\Modules\Admin\Http\Controllers\Backend\Config;
 
 class ServicesController extends BaseConfigController
 {
