@@ -1,7 +1,7 @@
 {
-    "name": "cysha/module-admin",
+    "name": "cleansoftnl/module-admin",
     "type": "pxcms-module",
-    "description": "Administration Module for Phoenix CMS",
+    "description": "Administration Module for CleanSoft",
     "license": "MIT",
     "authors": [
         { "name": "xLink (Dan Aldridge)", "email": "xLink@cybershade.org" }
